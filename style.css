@@ -1,0 +1,139 @@
+/* Colors & fonts */
+
+body {
+  background-color: #f4f0e6;
+  background-image: url(images/map.jpg);
+  background-size: cover;
+  background-position: center;
+  color: rgb(101, 67, 33);
+  font-family: "Pangolin", cursive;
+  font-weight: 500;
+  font-size: 15.45px;
+}
+
+
+
+h1 {
+	color: #0F0326;
+	font-family: "Linden Hill", serif;
+	font-weight: 550 ;
+	letter-spacing: 5px;
+	font-size: 40.45px;
+	text-align: center;
+}
+
+
+h2,h3 {
+	color: #0F0326;
+	font-family: "Linden Hill", serif;
+	font-size: 25px;
+}
+
+a { 
+	text-decoration: none;
+  color: #E08E45;
+  font-weight: 300;
+}
+
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 30px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+ 
+.card-beige {
+	background: #F2DFC3;
+	padding: 20px;
+	box-shadow: 0px 10px 30px rgba(75, 23, 60, 0.3);
+	border-radius: 5px;
+	margin: 20px 0px;
+}
+
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+.btnsection-skull {
+	display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.btn-skull {
+  background-color: black;
+  border: none;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 30px rgba(75, 23, 60, 0.5);
+}
+
+.icon-skull {
+  width: 50px;
+}
+
+.btnsection-skull p {
+	margin-left: 175px;
+	color: #3C3C3C;
+	font-family: "Linden Hill", serif;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+
+#introduction p {
+	margin-bottom: 30px;
+	letter-spacing: 2 px;
+}
+
+#introduction p1 {
+	margin-left: 215px;
+  font-family: "Linden Hill", serif;
+  color: #0F0326;
+}
+
+.list-inline .fa-solid:hover {
+  color: darkorange;
+}
+
+.list-inline {
+	list-style: none;
+	margin: 30px auto;
+	text-align: center;
+}
+
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+	justify-content: center;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(101, 67, 33);
+	margin: 0 10px;
+}
+
+
+
+
+
